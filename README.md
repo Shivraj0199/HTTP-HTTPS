@@ -1,4 +1,4 @@
-## Step-by-step guide to host your website on a domain name with HTTPS (SSL) from scratch - using an EC2 Ubuntu instance + NGINX + Let's Encrypt SSL.
+## Steps to host your website on a domain name with HTTPS (SSL) from scratch - using an EC2 Ubuntu instance + NGINX + Let's Encrypt SSL.
 ---
 
 ### **🎯 Goal:**
