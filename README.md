@@ -15,25 +15,26 @@
 2) Find DNS settings or Manage DNS
 3) Add an A Record:
 
+   ```
+      Host:       @
 
-      **`Host:       @`**
+      Type:       A
 
-      **`Type:       A`**
+      Value:      <Your EC2 Public IPv4 IP>
 
-      **`Value:      <Your EC2 Public IPv4 IP>`**
-
-      **`TTL:        Default or 3600`**
+      TTL:        Default or 3600
+   ```
    
 
 4) Add another A record:
 
-
-      **`Host:       www`**
+   ```
+      Host:       www
   
-      **`Type:       A`**
+      Type:       A
   
-      **`Value:      <Your EC2 IP>`**
-
+      Value:      <Your EC2 IP>
+   ```
 
 ## **Step 1:  SSH into EC2**
 
